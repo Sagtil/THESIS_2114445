@@ -27,4 +27,4 @@ Optimal L2 Regularization (C) for the linear probes was found using Cross-Valida
 * Run `gpt2xl.py`. This script is an end-to-end pipeline that includes the extraction of the hidden states, training and testing of the linear probes, and the behavioral evaluation for the GPT-2 XL model.
 
 ### 3. Llama 3.1 8B Pipeline
-* Run `llama318b.py`. Similar to the GPT-2 script, this includes extraction of the hidden states, training and testing of the probes, and behavioral evaluation for Llama 3.1 8B. *(Warning: High VRAM requirement for inference).*
+* Run `llama318b.py`. Similar to the GPT-2 script, this includes extraction of the hidden states, training and testing of the probes, and behavioral evaluation for Llama 3.1 8B. *Note that Llama 3.1 8B hidden state extraction takes a lot of vram, their model recommends 16GB of vram available.*
